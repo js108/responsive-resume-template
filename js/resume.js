@@ -27,7 +27,7 @@ $(function() {
             {name: "People", compedence: "Person"},
         ],
 
-        experinceHead: "Experince",
+        experinceHead: "Experience",
         experince: [
             {company: "General Electric", dates: "1989 - 2009", title: "Ceo", description: "A strategy is something like, an innovative new product; globalization, taking your products around the world; be the low-cost producer. A strategy is something you can touch; you can motivate people with; be number one and number two in every business. You can energize people around the message."},
             {company: "Company", dates: "0000 - 2000", title: "Associate", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
