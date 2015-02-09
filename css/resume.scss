@@ -1,0 +1,49 @@
+@import "csswizardry-grids.scss";
+@import "typeplate-sk/styles.scss";
+
+body {
+	margin: 0 0 50px;
+	font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+.grid {
+	max-width: 960px;
+    margin: 0 auto;
+}
+
+.sub {
+	margin: 15px 0 10px;
+}
+
+.header {
+	background-color: #222;
+	color: white;
+	padding-top: 20px;
+
+	h1, h3 {
+		color: white;
+		margin-top: 0px;
+	}
+
+	a:link, a:visited {
+    color: white;
+	}
+
+	.grid {
+		padding-bottom: 10px;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, {
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+	margin: 30px 0 15px;
+}
+
+.contact {
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+
+p {
+	margin-bottom: 30px;
+}
+

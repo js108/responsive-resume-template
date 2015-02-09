@@ -1,0 +1,61 @@
+<!doctype html>
+<script id="resume-template" type="text/x-handlebars-template">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/resume.css">
+
+    <title>{{name}} - {{title}}</title>
+</head>
+
+<body>
+<div class="header">
+
+    <div class="grid">
+
+        <div class="grid__item  lap--eight-twelfths  desk--eight-twelfths">
+           <h1>{{name}}</h1>
+           <h3>{{title}}</h3> 
+        </div><!--
+
+     --><div class="grid__item  lap--three-twelfths push--lap--one-twelfth desk--three-twelfths push--desk--one-twelfth contact">
+            {{#each contact}} 
+                {{{info}}}<br>
+            {{/each}}
+        </div>     
+    </div>
+</div>
+
+<div class="grid">
+
+    <div class="grid__item  lap--eight-twelfths  desk--eight-twelfths">
+       <h3>{{tag}}</h3>
+        {{intro}}
+
+       <h3>{{experinceHead}}</h3>
+        {{#each experince}} 
+            <h5 class="sub"> {{title}} / {{company}} / {{dates}}</h5>
+            {{description}}<p>
+        {{/each}} 
+        
+        <h3>{{educationHead}}</h3>
+        {{#each education}} 
+            <h5 class="sub"> {{degree}} / {{school}} / {{dates}}</h5>
+            {{description}}<p>
+        {{/each}} 
+        
+    </div><!--
+
+ --><div class="grid__item  lap--three-twelfths push--lap--one-twelfth desk--three-twelfths push--desk--one-twelfth">
+        <h3>{{skillsHead}}</h3>
+            {{#each skills}} 
+            {{name}}:  {{compedence}}<br>
+        {{/each}} 
+    </div>
+
+</div>
+        
+</script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+<script src="js/resume.js"></script>
+</body>
+</html>
