@@ -15,7 +15,7 @@ skillsHead: "Skills",
   ],
 ```
 
-Add or subtract lines from the sections as nessisary. 
+Add or subtract lines from the sections as necessary. 
 
 If you're working on the css compile resume.scss to resume.css. Or just work straight off resume.css if you must. I didn't minify it. Though I almost did. You're going to want to advoid messing with most of it as it's the frameworks' code.
 
